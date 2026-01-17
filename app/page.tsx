@@ -67,7 +67,7 @@ export default function Home() {
         className={`fixed top-0 left-0 right-0 backdrop-blur border-b z-50
         ${darkMode ? "bg-black/80 border-gray-800" : "bg-white/80 border-gray-200"}`}
       >
-
+<nav>
           <div className="space-x-4 text-sm flex items-center">
             {["perfil", "fortaleza", "tecnologias", "experiencia", "contacto"].map(
               (sec) => (
@@ -92,6 +92,7 @@ export default function Home() {
               {darkMode ? "☀️" : "🌙"}
             </button>
           </div>
+          </nav>
       </header>
 
       {/* =========================
